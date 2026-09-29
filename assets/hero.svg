@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">Lucas Gabriel — Software development and AI</title>
+  <desc id="desc">An original graphite terminal identity with a green architectural monogram and subtle signal animation.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111917"/><stop offset=".6" stop-color="#0b1012"/><stop offset="1" stop-color="#101719"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#57cf9b" stop-opacity=".13"/><stop offset="1" stop-color="#57cf9b" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#27342f" stroke-opacity=".4" stroke-width=".6"/></pattern>
+    <clipPath id="clip"><rect x="1" y="1" width="958" height="358" rx="18"/></clipPath>
+    <style>
+      .sans{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:Consolas,Menlo,monospace}
+      .signal{stroke-dasharray:26 520;animation:signal 12s linear infinite}
+      .cursor{animation:blink 2.4s steps(1) infinite}
+      @keyframes signal{to{stroke-dashoffset:-546}}@keyframes blink{0%,65%{opacity:1}66%,100%{opacity:.15}}
+      @media(prefers-reduced-motion:reduce){.signal,.cursor{animation:none}}
+    </style>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="960" height="360" fill="url(#bg)"/>
+    <rect x="584" width="376" height="360" fill="url(#grid)"/>
+    <ellipse cx="772" cy="166" rx="290" ry="240" fill="url(#halo)"/>
+    <path d="M0 49H960M0 310H960" stroke="#25352e" stroke-width="1"/>
+    <g class="mono" font-size="11" letter-spacing="2">
+      <text x="34" y="30" fill="#a2b5ad">LG / DEV.LOG</text>
+      <text x="684" y="30" fill="#8aa396">@lucaszz7 / profile</text>
+    </g>
+    <circle cx="927" cy="26" r="3" fill="#7ee2b8"/>
+    <g class="sans">
+      <text x="44" y="105" fill="#7ee2b8" font-size="12" letter-spacing="3">SOFTWARE DEVELOPMENT / AI</text>
+      <text x="40" y="182" fill="#edf6f0" font-size="64" font-weight="700" letter-spacing="-2.6">Lucas Gabriel<tspan fill="#7ee2b8">.</tspan></text>
+      <text x="44" y="224" fill="#a9bab2" font-size="18">Interfaces, logic and the data between them.</text>
+    </g>
+    <g class="mono" font-size="12" fill="#9eafa7">
+      <text x="44" y="276"><tspan fill="#7ee2b8">$ </tspan>student / computer programming</text>
+      <rect class="cursor" x="352" y="264" width="7" height="14" fill="#7ee2b8"/>
+      <text x="34" y="339">12TH YEAR</text>
+      <text x="163" y="339" fill="#455e51">/</text>
+      <text x="190" y="339">DESKTOP + WEB</text>
+      <text x="803" y="339" fill="#6a8575">SOURCE: ME</text>
+    </g>
+    <g fill="none" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M704 105H736V224H822V252H704Z" stroke="#3c5e4d" stroke-width="2"/>
+      <path d="M827 106H884V135H844V220H875V188H858V162H903V248H815V106Z" stroke="#294437" stroke-width="2"/>
+      <path d="M716 118V238H805M873 119H829V235H889V176H871" stroke="#7ee2b8" stroke-width="3"/>
+      <path class="signal" d="M660 274H915V76H655V284" stroke="#9cf2cc" stroke-width="1.4"/>
+      <path d="M667 91V77H681M905 272H919V258" stroke="#577d67"/>
+    </g>
+    <g class="mono" font-size="10" fill="#63876f" opacity=".45"><text x="673" y="65">01 10 00 11</text><text x="782" y="294">001 / LG / 110</text></g>
+  </g>
+  <rect x=".5" y=".5" width="959" height="359" rx="18" fill="none" stroke="#2c3b34"/>
+</svg>

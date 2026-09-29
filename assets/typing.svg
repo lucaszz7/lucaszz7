@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="76" viewBox="0 0 560 76" role="img" aria-labelledby="title">
+  <title id="title">Current focus: software, APIs, databases and AI-assisted development</title>
+  <defs><clipPath id="typed"><rect class="reveal" x="39" y="9" width="500" height="58"/></clipPath><style>.reveal{animation:type 12s steps(35,end) infinite}.cursor{animation:blink 1.5s steps(1) infinite}@keyframes type{0%,8%{width:0}40%,100%{width:500}}@keyframes blink{50%{opacity:0}}@media(prefers-reduced-motion:reduce){.reveal,.cursor{animation:none}}</style></defs>
+  <rect x=".5" y=".5" width="559" height="75" rx="10" fill="#101715" stroke="#2c3b34"/>
+  <g font-family="Consolas,Menlo,monospace" font-size="15"><text x="17" y="31" fill="#7ee2b8">&gt;</text><g clip-path="url(#typed)" fill="#b8c9bf"><text x="39" y="31">software / APIs / databases</text><text x="39" y="55">AI-assisted development<tspan class="cursor" fill="#7ee2b8"> ▌</tspan></text></g></g>
+</svg>

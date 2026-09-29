@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="330" viewBox="0 0 440 330" role="img" aria-labelledby="title">
+  <title id="title">Lucas Gabriel — Software development and AI — @lucaszz7</title>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#131e18"/><stop offset="1" stop-color="#0b1012"/></linearGradient><pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#263c2e" stroke-opacity=".3"/></pattern></defs>
+  <rect x="1" y="1" width="438" height="328" rx="16" fill="url(#bg)" stroke="#2c3b34"/>
+  <rect x="170" y="48" width="268" height="230" fill="url(#grid)"/>
+  <g font-family="Consolas,Menlo,monospace" font-size="12" fill="#a2b5ad"><text x="24" y="31">LG / DEV.LOG</text><text x="315" y="31">@lucaszz7</text></g>
+  <path d="M1 48H439M1 280H439" stroke="#2c3b34"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="24" y="87" fill="#7ee2b8" font-size="11" letter-spacing="1.5">SOFTWARE DEVELOPMENT / AI</text>
+    <text x="22" y="144" fill="#edf6f0" font-size="43" font-weight="700" letter-spacing="-1.8">Lucas Gabriel<tspan fill="#7ee2b8">.</tspan></text>
+    <text x="24" y="188" fill="#a9bab2" font-size="17">Interfaces, logic and</text>
+    <text x="24" y="212" fill="#a9bab2" font-size="17">the data between them.</text>
+  </g>
+  <g font-family="Consolas,Menlo,monospace" font-size="12" fill="#a2b5ad"><text x="24" y="253"><tspan fill="#7ee2b8">$ </tspan>computer programming student</text><text x="24" y="310">12TH YEAR / DESKTOP + WEB</text></g>
+  <path d="M353 184V246H396" fill="none" stroke="#7ee2b8" stroke-width="3" opacity=".35"/>
+</svg>

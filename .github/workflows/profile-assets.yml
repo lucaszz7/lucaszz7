@@ -1,0 +1,55 @@
+name: Refresh profile visuals
+
+on:
+  schedule:
+    - cron: '23 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile-assets.yml'
+      - 'scripts/metrics.mjs'
+      - 'tests/metrics.test.mjs'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'lucaszz7/lucaszz7'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24'
+      - name: Test calculation and parsing
+        run: node --test tests/metrics.test.mjs
+      - name: Generate data-backed visual cards
+        run: node scripts/metrics.mjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: lucaszz7
+          outputs: |
+            assets/generated/snake.svg?palette=github-dark&color_snake=%237ee2b8&color_dots=%23101715,%2324362c,%233b654c,%23548e68,%237ee2b8
+      - name: Commit only generated assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- assets/generated/
+          if git diff --cached --quiet; then
+            echo 'No visual changes.'
+          else
+            git commit -m 'chore(profile): refresh public GitHub visuals'
+            git push
+          fi
