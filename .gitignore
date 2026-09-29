@@ -4,3 +4,6 @@ node_modules/
 .preview/
 *.log
 *.zip
+
+# Clone Git interno preexistente: não incluir como submódulo ou conteúdo do perfil
+/lucaszz7/

@@ -77,3 +77,13 @@ Verificação V2 em 29/09/2026: dez testes passaram, o diff não apresenta erros
 `Computer Programming student | Desktop & full-stack web | Python, TypeScript & SQL | Data integration & AI-assisted development`
 
 Esta bio é apenas uma sugestão. Nome, fotografia, bio e repositórios fixados são configurações do perfil GitHub, não elementos controlados pelo README; não foram alterados nesta revisão. Não foi criada uma fotografia nem foram inventadas conquistas para preencher as referências.
+
+## Git e colaboração
+
+O repositório de trabalho é a raiz desta pasta, com remoto `https://github.com/lucaszz7/lucaszz7.git`. A subpasta `lucaszz7/` contém outro Git local preexistente, sem remoto, e está ignorada para evitar um submódulo acidental; foi preservada.
+
+Antes de editar, execute `git pull --ff-only`. Para trabalho novo, use uma branch e commits pequenos, revendo os ficheiros selecionados. Execute `node --test tests/*.test.mjs` antes de publicar. Não adicione `.preview/`, `.env`, ficheiros ZIP ou dependências.
+
+O workflow pode publicar novos snapshots enquanto trabalha. Se as branches divergirem, faça `git fetch origin` e depois `git merge origin/main`, reveja o resultado, execute os testes e faça um push normal. Não use force-push para apagar atualizações automáticas ou trabalho de outras pessoas.
+
+O perfil é apresentado pelo GitHub a partir do README: não requer o servidor local do LCE. Os repositórios têm históricos, finalidades e comandos independentes.
