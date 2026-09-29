@@ -5,7 +5,7 @@
   <rect x=".5" y=".5" width="439" height="291" rx="16" fill="url(#bg)" stroke="#2c3b34"/>
   <rect x="250" y="50" width="188" height="174" fill="url(#grid)"/>
   <path d="M24 47H416M24 231H416" stroke="#2c3b34"/>
-  <g font-family="Consolas,Menlo,monospace" font-size="12" fill="#a1b4aa"><text x="24" y="29">LG / PROFILE</text><text x="315" y="29">@lucaszz7</text></g>
+  <g font-family="Consolas,Menlo,monospace" font-size="12" fill="#a1b4aa"><text x="24" y="29">LC / PROFILE</text><text x="315" y="29">@lucaszz7</text></g>
   <g font-family="Segoe UI,Arial,sans-serif">
     <text x="24" y="82" font-size="12" letter-spacing="1.6" fill="#7ee2b8">SOFTWARE DEVELOPMENT</text>
     <text x="22" y="133" font-size="44" letter-spacing="-1.6" font-weight="700" fill="#eef6f0">Lucas Gabriel<tspan fill="#7ee2b8">.</tspan></text>

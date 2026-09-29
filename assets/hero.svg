@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="296" viewBox="0 0 960 296" role="img" aria-labelledby="title desc">
   <title id="title">Lucas Gabriel — Software Development</title>
-  <desc id="desc">Desktop applications, full-stack web and data integration. Computer Programming student, 12th year. GitHub: lucaszz7.</desc>
+  <desc id="desc">Desktop applications, full-stack web and data integration. Computer Programming student, 12th year. GitHub: lucaszz7. LC monogram.</desc>
   <defs>
     <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#141c1b"/><stop offset=".65" stop-color="#0d1318"/><stop offset="1" stop-color="#111f21"/></linearGradient>
     <radialGradient id="light"><stop stop-color="#7ee2b8" stop-opacity=".09"/><stop offset="1" stop-color="#7ee2b8" stop-opacity="0"/></radialGradient>
@@ -13,7 +13,7 @@
     <rect x="590" width="370" height="296" fill="url(#grid)"/>
     <ellipse cx="817" cy="148" rx="258" ry="185" fill="url(#light)"/>
     <path d="M32 49H928M32 245H928" stroke="#2a3a35"/>
-    <g class="mono" font-size="11" letter-spacing="1.5" fill="#9db4a8"><text x="34" y="30">LG / DEVELOPER PROFILE</text><text x="800" y="30">@lucaszz7</text></g>
+    <g class="mono" font-size="11" letter-spacing="1.5" fill="#9db4a8"><text x="34" y="30">LC / DEVELOPER PROFILE</text><text x="800" y="30">@lucaszz7</text></g>
     <g class="sans">
       <text x="40" y="95" font-size="14" letter-spacing="2.4" fill="#7ee2b8">SOFTWARE DEVELOPMENT</text>
       <text x="37" y="158" font-size="59" letter-spacing="-2" font-weight="700" fill="#eef6f0">Lucas Gabriel<tspan fill="#7ee2b8">.</tspan></text>
@@ -22,8 +22,8 @@
     <g class="mono" font-size="11" fill="#a1b4aa"><text x="34" y="275">COMPUTER PROGRAMMING STUDENT</text><text x="828" y="275">12TH YEAR</text></g>
     <g fill="none" stroke-linecap="round" stroke-linejoin="round">
       <path d="M706 86H746V183H792V213H706Z" stroke="#354f46" stroke-width="2"/>
-      <path d="M826 85H891V115H842V183H874V165H862V139H905V213H812V85Z" stroke="#354f46" stroke-width="2"/>
-      <path d="M720 99V199H779M878 99H828V198H890V152H877" stroke="#7ee2b8" stroke-width="2.5"/>
+      <path d="M905 85H812V213H905V183H842V115H905Z" stroke="#354f46" stroke-width="2"/>
+      <path d="M720 99V199H779M890 99H828V198H890" stroke="#7ee2b8" stroke-width="2.5"/>
       <path d="M637 117H672V157H699M795 169H806M908 183H935" stroke="#4c7564" stroke-width="1"/>
     </g>
     <g fill="#7ee2b8"><circle cx="637" cy="117" r="2" class="signal"/><circle cx="935" cy="183" r="2" opacity=".6"/></g>

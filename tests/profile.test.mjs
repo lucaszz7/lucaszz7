@@ -5,6 +5,16 @@ import {readFileSync, existsSync} from 'node:fs';
 const root = new URL('../', import.meta.url);
 const readme = readFileSync(new URL('README.md', root), 'utf8');
 
+test('both hero variants use the LC identity and preserve the personal name', () => {
+  for (const asset of ['assets/hero.svg', 'assets/hero-mobile.svg']) {
+    const svg = readFileSync(new URL(asset, root), 'utf8');
+    assert.match(svg, />LC \/ /);
+    assert.doesNotMatch(svg, /\bLG\b/);
+    assert.match(svg, /Lucas Gabriel/);
+  }
+  assert.match(readFileSync(new URL('assets/hero.svg', root), 'utf8'), /LC monogram/);
+});
+
 test('profile navigation resolves to the intended sections', () => {
   const headings = [...readme.matchAll(/^## (.+)$/gm)].map(match => match[1].toLowerCase().replaceAll(' ', '-'));
   const links = [...readme.matchAll(/href="#([^"]+)"/g)].map(match => match[1]);
