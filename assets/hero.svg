@@ -1,50 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
-  <title id="title">Lucas Gabriel — Software development and AI</title>
-  <desc id="desc">An original graphite terminal identity with a green architectural monogram and subtle signal animation.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="296" viewBox="0 0 960 296" role="img" aria-labelledby="title desc">
+  <title id="title">Lucas Gabriel — Software Development</title>
+  <desc id="desc">Desktop applications, full-stack web and data integration. Computer Programming student, 12th year. GitHub: lucaszz7.</desc>
   <defs>
-    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111917"/><stop offset=".6" stop-color="#0b1012"/><stop offset="1" stop-color="#101719"/></linearGradient>
-    <radialGradient id="halo"><stop stop-color="#57cf9b" stop-opacity=".13"/><stop offset="1" stop-color="#57cf9b" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#27342f" stroke-opacity=".4" stroke-width=".6"/></pattern>
-    <clipPath id="clip"><rect x="1" y="1" width="958" height="358" rx="18"/></clipPath>
-    <style>
-      .sans{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:Consolas,Menlo,monospace}
-      .signal{stroke-dasharray:26 520;animation:signal 12s linear infinite}
-      .cursor{animation:blink 2.4s steps(1) infinite}
-      @keyframes signal{to{stroke-dashoffset:-546}}@keyframes blink{0%,65%{opacity:1}66%,100%{opacity:.15}}
-      @media(prefers-reduced-motion:reduce){.signal,.cursor{animation:none}}
-    </style>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#141c1b"/><stop offset=".65" stop-color="#0d1318"/><stop offset="1" stop-color="#111f21"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#7ee2b8" stop-opacity=".09"/><stop offset="1" stop-color="#7ee2b8" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#365149" stroke-opacity=".18" stroke-width=".7"/></pattern>
+    <clipPath id="clip"><rect x="1" y="1" width="958" height="294" rx="16"/></clipPath>
+    <style>.sans{font-family:Segoe UI,Arial,sans-serif}.mono{font-family:Consolas,Menlo,monospace}.signal{animation:pulse 7s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}@media(prefers-reduced-motion:reduce){.signal{animation:none}}</style>
   </defs>
   <g clip-path="url(#clip)">
-    <rect width="960" height="360" fill="url(#bg)"/>
-    <rect x="584" width="376" height="360" fill="url(#grid)"/>
-    <ellipse cx="772" cy="166" rx="290" ry="240" fill="url(#halo)"/>
-    <path d="M0 49H960M0 310H960" stroke="#25352e" stroke-width="1"/>
-    <g class="mono" font-size="11" letter-spacing="2">
-      <text x="34" y="30" fill="#a2b5ad">LG / DEV.LOG</text>
-      <text x="684" y="30" fill="#8aa396">@lucaszz7 / profile</text>
-    </g>
-    <circle cx="927" cy="26" r="3" fill="#7ee2b8"/>
+    <rect width="960" height="296" fill="url(#bg)"/>
+    <rect x="590" width="370" height="296" fill="url(#grid)"/>
+    <ellipse cx="817" cy="148" rx="258" ry="185" fill="url(#light)"/>
+    <path d="M32 49H928M32 245H928" stroke="#2a3a35"/>
+    <g class="mono" font-size="11" letter-spacing="1.5" fill="#9db4a8"><text x="34" y="30">LG / DEVELOPER PROFILE</text><text x="800" y="30">@lucaszz7</text></g>
     <g class="sans">
-      <text x="44" y="105" fill="#7ee2b8" font-size="12" letter-spacing="3">SOFTWARE DEVELOPMENT / AI</text>
-      <text x="40" y="182" fill="#edf6f0" font-size="64" font-weight="700" letter-spacing="-2.6">Lucas Gabriel<tspan fill="#7ee2b8">.</tspan></text>
-      <text x="44" y="224" fill="#a9bab2" font-size="18">Interfaces, logic and the data between them.</text>
+      <text x="40" y="95" font-size="14" letter-spacing="2.4" fill="#7ee2b8">SOFTWARE DEVELOPMENT</text>
+      <text x="37" y="158" font-size="59" letter-spacing="-2" font-weight="700" fill="#eef6f0">Lucas Gabriel<tspan fill="#7ee2b8">.</tspan></text>
+      <text x="40" y="197" font-size="18" fill="#bccbc4">Desktop applications · Full-stack web · Data integration</text>
     </g>
-    <g class="mono" font-size="12" fill="#9eafa7">
-      <text x="44" y="276"><tspan fill="#7ee2b8">$ </tspan>student / computer programming</text>
-      <rect class="cursor" x="352" y="264" width="7" height="14" fill="#7ee2b8"/>
-      <text x="34" y="339">12TH YEAR</text>
-      <text x="163" y="339" fill="#455e51">/</text>
-      <text x="190" y="339">DESKTOP + WEB</text>
-      <text x="803" y="339" fill="#6a8575">SOURCE: ME</text>
+    <g class="mono" font-size="11" fill="#a1b4aa"><text x="34" y="275">COMPUTER PROGRAMMING STUDENT</text><text x="828" y="275">12TH YEAR</text></g>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M706 86H746V183H792V213H706Z" stroke="#354f46" stroke-width="2"/>
+      <path d="M826 85H891V115H842V183H874V165H862V139H905V213H812V85Z" stroke="#354f46" stroke-width="2"/>
+      <path d="M720 99V199H779M878 99H828V198H890V152H877" stroke="#7ee2b8" stroke-width="2.5"/>
+      <path d="M637 117H672V157H699M795 169H806M908 183H935" stroke="#4c7564" stroke-width="1"/>
     </g>
-    <g fill="none" stroke-linecap="square" stroke-linejoin="miter">
-      <path d="M704 105H736V224H822V252H704Z" stroke="#3c5e4d" stroke-width="2"/>
-      <path d="M827 106H884V135H844V220H875V188H858V162H903V248H815V106Z" stroke="#294437" stroke-width="2"/>
-      <path d="M716 118V238H805M873 119H829V235H889V176H871" stroke="#7ee2b8" stroke-width="3"/>
-      <path class="signal" d="M660 274H915V76H655V284" stroke="#9cf2cc" stroke-width="1.4"/>
-      <path d="M667 91V77H681M905 272H919V258" stroke="#577d67"/>
-    </g>
-    <g class="mono" font-size="10" fill="#63876f" opacity=".45"><text x="673" y="65">01 10 00 11</text><text x="782" y="294">001 / LG / 110</text></g>
+    <g fill="#7ee2b8"><circle cx="637" cy="117" r="2" class="signal"/><circle cx="935" cy="183" r="2" opacity=".6"/></g>
   </g>
-  <rect x=".5" y=".5" width="959" height="359" rx="18" fill="none" stroke="#2c3b34"/>
+  <rect x=".5" y=".5" width="959" height="295" rx="16" fill="none" stroke="#2c3b34"/>
 </svg>

@@ -1,9 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="268" viewBox="0 0 440 268" role="img" aria-labelledby="title">
-  <title id="title">MyTeam × ERP Validation Kit — Python, PySide6, SQL Server — public repository</title>
-  <rect x=".5" y=".5" width="439" height="267" rx="14" fill="#101715" stroke="#2c3b34"/>
-  <path d="M24 61H416M24 213H416" stroke="#2c3b34"/>
-  <g font-family="Consolas,Menlo,monospace" font-size="11" letter-spacing="1.3"><text x="24" y="36" fill="#7ee2b8">01 / DATA INTEGRITY</text><text x="352" y="36" fill="#a0b6a9">PUBLIC</text></g>
-  <g font-family="Inter,Segoe UI,Arial,sans-serif"><text x="24" y="103" fill="#edf6f0" font-size="27" font-weight="650">MyTeam × ERP</text><text x="24" y="135" fill="#edf6f0" font-size="27" font-weight="650">Validation Kit</text><text x="24" y="171" fill="#a6b9ad" font-size="14">Desktop checks for business data</text><text x="24" y="191" fill="#a6b9ad" font-size="14">and integration consistency.</text></g>
-  <text x="24" y="244" fill="#a8bfb1" font-family="Consolas,Menlo,monospace" font-size="11">Python · PySide6 · SQL Server</text>
-  <path d="M385 244L403 226M387 226H403V242" fill="none" stroke="#7ee2b8" stroke-width="1.8"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="364" viewBox="0 0 440 364" role="img" aria-labelledby="title desc">
+  <title id="title">MyTeam × ERP Validation Kit — desktop and data integration</title>
+  <desc id="desc">Python, PySide6 and SQL Server. Compares orders, sales and seller mappings; checks integration conditions; exports results to Excel. Public repository.</desc>
+  <rect x=".5" y=".5" width="439" height="351" rx="14" fill="#101715" stroke="#2c3b34"/>
+  <path d="M24 55H416M24 291H416" stroke="#2c3b34"/>
+  <g font-family="Consolas,Menlo,monospace" font-size="11" letter-spacing="1" fill="#7ee2b8"><text x="24" y="33">01 / DESKTOP + DATA</text><text x="351" y="33" fill="#adbcaf">PUBLIC</text></g>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <g font-size="26" font-weight="700" fill="#eef6f0"><text x="24" y="94">MyTeam × ERP</text><text x="24" y="125">Validation Kit</text></g>
+    <g font-size="15" fill="#b6c7bc"><text x="24" y="159">Diagnosing inconsistencies across</text><text x="24" y="181">business systems.</text></g>
+    <g font-size="16" fill="#d4e0d8"><text x="40" y="219">SQL comparison of orders and sales</text><text x="40" y="245">Integration and environment checks</text><text x="40" y="271">Structured results and Excel exports</text></g>
+  </g>
+  <g fill="#7ee2b8"><circle cx="27" cy="214" r="2"/><circle cx="27" cy="240" r="2"/><circle cx="27" cy="266" r="2"/></g>
+  <g font-family="Consolas,Menlo,monospace" font-size="12" fill="#a8bfb1"><text x="24" y="317">Python · PySide6 · SQL Server</text><text x="24" y="337" fill="#7ee2b8" font-size="11">VIEW SOURCE ↗</text></g>
 </svg>
